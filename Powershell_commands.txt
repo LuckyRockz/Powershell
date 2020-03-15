@@ -1,6 +1,6 @@
-Task						Command
+	Task						Command
 
-Start a VM					Start-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
-Stop a VM					Stop-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
-Restart a running VM		Restart-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
-Delete a VM					Remove-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
+	Start a VM					Start-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
+	Stop a VM					Stop-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
+	Restart a running VM		Restart-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
+	Delete a VM					Remove-AzVM -ResourceGroupName $myResourceGroup -Name $myVM
